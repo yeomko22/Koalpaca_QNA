@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import csv
 
 
-class QnaSpider(scrapy.Spider):
-    name = "qna"
+class QnaListSpider(scrapy.Spider):
+    name = "qna_list"
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
